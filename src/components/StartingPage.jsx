@@ -44,7 +44,7 @@ const StartingPage = () => {
     }
   return (
     <div className={styles.starting__page}>
-      <div className={styles.list}>{list.map(el => <p key={el}><span>{el[0]}</span> ={">"} <span>{el[1]}</span></p>)}</div>
+      {/* <div className={styles.list}>{list.map(el => <p key={el}><span>{el[0]}</span> ={">"} <span>{el[1]}</span></p>)}</div> */}
         {!usersEntered ? <form action="" onSubmit={(e) => submitForm(e)}>
             <textarea value={users} onChange={(e) => {
               setUsers(e.target.value)
