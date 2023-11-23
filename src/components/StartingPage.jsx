@@ -39,7 +39,7 @@ const StartingPage = () => {
           
         }
       } catch (error) {
-        alert(error)
+        alert('Bir kishi ozi bilan ozi qoldi. Qayta generatsiya qiling!!!')
       }
     }
   return (
@@ -63,3 +63,4 @@ const StartingPage = () => {
 
 export default StartingPage
 // Xurshid, AbduRahmonjon, Sunbula, Dildora, Mehribon, Xumoyun Mamasoliyev, Humoyunmirzo Murodullayev, Tomaris, Gulirano, Nigina, Shaxnoza, Mehribon, Jaxongir, MuhammadYusuf
+// Davlat, Artyom, Xusniddin, Alixon, Gozal, Ogiljon, Shaxrizoda, Ayshe, Vazira, Hadicha, Iroda, Sevinch, Muxlisa, Farangiz
