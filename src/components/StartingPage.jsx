@@ -32,7 +32,7 @@ const StartingPage = () => {
               alert("Participants are over. Happy New Year!")
             }
             console.log(allUsers)
-          setAllUsers(allUsers.filter(user => user !== couple))
+          setAllUsers(allUsers.filter(u => u !== user))
           setList([...list, [user, couple]])
           alert(user + ', siz ' + couple + ' ga sovga berasiz')
           }
